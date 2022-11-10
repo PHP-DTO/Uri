@@ -1,0 +1,36 @@
+{
+  "name": "php-dto/uri",
+  "description": "Immutable uri object with validation and helpful methods",
+  "keywords": [
+    "uri",
+    "DTO",
+    "value object"
+  ],
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Timur Kasumov aka XAKEPEHOK",
+      "email": "icq-475204@ya.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpDto\\Uri\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpDto\\Uri\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.4.0",
+    "league/uri": "6.7.*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
